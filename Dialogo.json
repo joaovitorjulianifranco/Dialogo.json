@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tags": "Welcome",
+            "patterns": ["Oi", "Olá!",  "E ae","Bom dia!", "Boa tarde!", "Boa noite!", "Hi", "Hello", "Hey","Good Morning", "Good afternoon", "Goodnight"],
+            "responses": ["Olá, Eu sou a Mafalda, sua assistente virtual", "Bom dia, Eu sou a Mafalda, sua assistente virtual", "Boa tarde, Eu sou a Mafalda, sua assistente virtual"],
+            "context": [""]
+        },
+        {
+            "tags": "Who_are_you",
+            "patterns": ["Olá, Qual o seu Nome?", "Boa tade, eu gostaria de tirar uma duvida?", "Oi, Qual a sua Idade?", "Qual seu gênero?", "Bom dia, Eu sou Mafalda, em que posso te ajudar?", "Boa tarde, Eu sou Mafalda, em que posso te ajudar?", "Qual o seu personagem favorito?", "Qual o seu filme favorito", "Qual a sua Música favorita?", "Que tipo de Música você gosta?", "você gosta de viajar?", "Qual é o seu peso?", "Qual é a sua altura?", "O que você gosta de fazer no fim de semana?", "Onde você mora", "Você trabalha?", "Qual é a sua bebida favorita?", "Você gosta de tecnologia?", "Em que ano você nasceu?"], 
+            "responses": ["Eu sou uma assistente virtual, ainda não tenho o seu nome.", "Eu sou uma assistente virtual, ainda não tenho a sua idade.", "Eu sou uma assistente virtual, ainda não tenho o seu peso.", "Eu sou uma assistente virtual, ainda não tenho a sua altura."], 
+            "context": [""]
+        },
+        {
+            "tags": "love",
+            "patterns": ["Te amo", "Gosto da sua companhia", "Linda", "Maravilhosa"], 
+            "responses": ["Awwwn, muito obrigada <3", "Muito Obrigada!", "Tamo Junto!", "Ok!"],
+            "context": [""]
+        },
+        {
+            "tags": "Thanks",
+            "patterns": ["Obrigada", "Obrigado", "Valeu", "Gratidão", "Agradeço desde então", "Muito Obrigado!", "Muito Obrigada!", "Obrigado por tudo", "Obrigada de coração!", "Falou!", "Show!", "Firmeza", "Beleza!"],
+            "responses": ["De nada ;)", "Agradeço seu contato, volte sempre!", "Por nada", "Agradeço a todos!", "Agradeço-te muito", "Agradeço-lhe por tudo", "Agradeço imenso por isso", "Agradeço imenso por isso", "Agradeço de todo o coração"],
+            "context": [""]
+        },
+        {
+           "tags": "Anything_else",
+           "patterns": [],
+           "responses": ["Desculpa, não entendi o que você falou, tente novamente!"],
+           "context": [""]
+        }
+    ] 
+}
